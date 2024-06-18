@@ -28,11 +28,9 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>3.9.8</version> <!-- Update to the latest stable version -->
+          <finalName>02-Maven-WebApp</finalName>
         </plugin>
         <!-- other plugins -->
     </plugins>
 </build>
-  <build>
-    <finalName>02-Maven-WebApp</finalName>
-  </build>
 </project>
