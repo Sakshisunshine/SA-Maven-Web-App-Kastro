@@ -23,6 +23,16 @@
 
   </dependencies>
   <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- Update to the latest stable version -->
+        </plugin>
+        <!-- other plugins -->
+    </plugins>
+</build>
+  <build>
     <finalName>02-Maven-WebApp</finalName>
   </build>
 </project>
